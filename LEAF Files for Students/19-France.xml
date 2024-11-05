@@ -1130,13 +1130,173 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150118161",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:01:18.161Z",
+	"dcterms:modified": "2024-11-05T20:01:18.161Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ThisIsntGrant",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Grant Alleyne"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150118161#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150118161#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Toulouse",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150137760",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:01:37.760Z",
+	"dcterms:modified": "2024-11-05T20:01:37.760Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ThisIsntGrant",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Grant Alleyne"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150137760#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ThisIsntGrant/LEAF/main/LEAF%20Files%20for%20Students/19-France.xml?place_annotation_20241105150137760#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q191085",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/19-France-Ort-1.jpg"/>
 			<div>
 				<head>France</head>
-				<p>The realme of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> (as now it is limited) hath of the north ſyde the narrow ſeas that deuyde it from <placeName key="England" ref="http://www.wikidata.org/entity/Q21">England</placeName>, weſtward it hath weſt Ocean, in the fouthweſt it ioyneth to <placeName key="Spain" ref="http://dbpedia.org/resource/Spain" cert="high">Spaine<precision match="@ref" precision="high"/></placeName>, &amp; directly ſouth it bordereth vpon the [Medisterranean] ſea. On the Eaſtſyde to begin from the ſouth downward vnto the north it bordereth vpon <placeName key="Duchy of Savoy" ref="http://www.wikidata.org/entity/Q426025">Savoy</placeName>, then on the Countie of <placeName key="Duchy of Burgundy" ref="http://dbpedia.org/resource/Duchy_of_Burgundy" cert="high">Burgundie<precision match="@ref" precision="high"/></placeName> otherwiſe called <placeName key="Franche-Comté" ref="http://vocab.getty.edu/tgn/7645440">La Franche Counté</placeName>, &amp; ſo along by <placeName key="Lorraine" ref="http://www.wikidata.org/entity/Q1137" cert="high">Lorraine<precision match="@ref" precision="high"/></placeName> and vpon <placeName key="Luxembourg" ref="http://www.wikidata.org/entity/Q32">Luxembourg</placeName>, <placeName key="Flanders" ref="http://www.wikidata.org/entity/Q234">Flandre</placeName> &amp; <placeName key="Artois" ref="http://www.wikidata.org/entity/Q159987" cert="high">Artois<precision match="@ref" precision="high"/></placeName></p><p>This goodly kingdome is abundant in corne and wyne &amp; al ſortes of fruits, hauing plenty of cattle and foule &amp; wanteth all other neceſſarie thinges, mynes it is not renowned to haue, yet is it moſte ritch &amp; opnlent beeing ſituate in the middeſt of the chief countries of <placeName key="Europe" ref="http://www.wikidata.org/entity/Q46">Europe</placeName>, &amp; Hauling traſike on all ſydes. </p><p>It ſhal not be needful to ſhew the three parts wherein Ceafar recounteth it to haue bene deuyded of oldtyme, ſeeing both the timitts and inhabitants are ſinced altered. At this preſent it is deuyded into eight provinces, which are vnder eight continual courtes of Parliament. The firſt is the province of France otherwiſe called the <placeName key="Île-de-France" ref="http://vocab.getty.edu/tgn/7024269">Ile of France</placeName>, wherein the citie of <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90" cert="high">Paris<precision match="@ref" precision="high"/></placeName> is ſituate, In which citie the firſt courte of parlament reſideth. </p><p>The ſecond prouince is <placeName key="Languedoc" ref="http://www.wikidata.org/entity/Q206221">Languedoc</placeName>, the parlament whereof is in [Tholonſe].The third [Gasconie], whoſe parlament is in [Bourdeaux], whoſe parlament is Dijon. ſixts [Dauphine], whoſe parliament is in [Grenoble]. The ſeauenth is Provence, whoſe parlament is in Aix. The eight is Britannie, whoſe parlament is in Renes, and vnder theſe eight provinces all France is conteyned, &amp; limitted for recoues of juſtice vnto theſe parlaments.</p></div>
+				<p>The realme of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> (as now it is limited) hath of the north ſyde the narrow ſeas that deuyde it from <placeName key="England" ref="http://www.wikidata.org/entity/Q21">England</placeName>, weſtward it hath weſt Ocean, in the fouthweſt it ioyneth to <placeName key="Spain" ref="http://dbpedia.org/resource/Spain" cert="high">Spaine<precision match="@ref" precision="high"/></placeName>, &amp; directly ſouth it bordereth vpon the [Medisterranean] ſea. On the Eaſtſyde to begin from the ſouth downward vnto the north it bordereth vpon <placeName key="Duchy of Savoy" ref="http://www.wikidata.org/entity/Q426025">Savoy</placeName>, then on the Countie of <placeName key="Duchy of Burgundy" ref="http://dbpedia.org/resource/Duchy_of_Burgundy" cert="high">Burgundie<precision match="@ref" precision="high"/></placeName> otherwiſe called <placeName key="Franche-Comté" ref="http://vocab.getty.edu/tgn/7645440">La Franche Counté</placeName>, &amp; ſo along by <placeName key="Lorraine" ref="http://www.wikidata.org/entity/Q1137" cert="high">Lorraine<precision match="@ref" precision="high"/></placeName> and vpon <placeName key="Luxembourg" ref="http://www.wikidata.org/entity/Q32">Luxembourg</placeName>, <placeName key="Flanders" ref="http://www.wikidata.org/entity/Q234">Flandre</placeName> &amp; <placeName key="Artois" ref="http://www.wikidata.org/entity/Q159987" cert="high">Artois<precision match="@ref" precision="high"/></placeName></p><p>This goodly kingdome is abundant in corne and wyne &amp; al ſortes of fruits, hauing plenty of cattle and foule &amp; wanteth all other neceſſarie thinges, mynes it is not renowned to haue, yet is it moſte ritch &amp; opnlent beeing ſituate in the middeſt of the chief countries of <placeName key="Europe" ref="http://www.wikidata.org/entity/Q46">Europe</placeName>, &amp; Hauling traſike on all ſydes. </p><p>It ſhal not be needful to ſhew the three parts wherein Ceafar recounteth it to haue bene deuyded of oldtyme, ſeeing both the timitts and inhabitants are ſinced altered. At this preſent it is deuyded into eight provinces, which are vnder eight continual courtes of Parliament. The firſt is the province of France otherwiſe called the <placeName key="Île-de-France" ref="http://vocab.getty.edu/tgn/7024269">Ile of France</placeName>, wherein the citie of <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90" cert="high">Paris<precision match="@ref" precision="high"/></placeName> is ſituate, In which citie the firſt courte of parlament reſideth. </p><p>The ſecond prouince is <placeName key="Languedoc" ref="http://www.wikidata.org/entity/Q206221">Languedoc</placeName>, the parlament whereof is in <placeName key="Toulouse" ref="http://dbpedia.org/resource/Toulouse" cert="high">Tholonſe<precision match="@ref" precision="high"/></placeName>.The third <placeName key="Gascony" ref="http://www.wikidata.org/entity/Q191085">Gasconie</placeName>, whoſe parlament is in [Bourdeaux], whoſe parlament is Dijon. ſixts [Dauphine], whoſe parliament is in [Grenoble]. The ſeauenth is Provence, whoſe parlament is in Aix. The eight is Britannie, whoſe parlament is in Renes, and vnder theſe eight provinces all France is conteyned, &amp; limitted for recoues of juſtice vnto theſe parlaments.</p></div>
 		</body>
 	</text>
 </TEI>
